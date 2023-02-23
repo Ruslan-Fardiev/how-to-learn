@@ -77,11 +77,15 @@
   background-color: #2f80ed;
 }
 
+.description {
+  margin: 100px auto;
+}
+
 .two-columns {
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  margin: 100px auto;
-  width: 80%;
+  margin: auto;
 }
 
 .two-columns__brief {
