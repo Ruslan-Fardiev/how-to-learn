@@ -45,6 +45,7 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
+  font-weight: 400;
   position: absolute;
   align-self: flex-end;
   padding-left: 64px;
@@ -63,17 +64,52 @@
   height: 608px;
   bottom: 0;
   right: 0;
-  
+
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
-  right:0px;
+  right: 0px;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 80%;
+}
+
+.two-columns__brief {
+  color: #2f80ed;
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  padding-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
