@@ -17,7 +17,7 @@
 
 .logo {
   width: 228px;
-  height: 64px;
+  height: 32px;
 }
 
 .logo_place_header {
@@ -127,6 +127,13 @@
   font-weight: 600;
 }
 
+.section-title_theme_dark {
+  color: white;
+  padding-top: 90px;
+  position: relative;
+  z-index: 1;
+}
+
 .section-subtitle {
   margin: auto;
   text-align: center;
@@ -135,6 +142,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  padding-top: 20px;
 }
 
 .table {
@@ -147,9 +159,23 @@
   justify-content: space-between;
 }
 
+.table_theme_dark {
+  padding-bottom: 90px;
+}
+
 .table__cell {
   width: 250px;
   margin-top: 60px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .table__heading {
@@ -220,36 +246,78 @@
   overflow: hidden;
 }
 
-.section-title_theme_dark {
-  color: white;
-  padding-top: 90px;
-  position: relative;
-  z-index: 1;
-}
-
-.section-subtitle_theme_dark {
-  color: white;
-  padding-top: 20px;
-}
-
-.table_theme_dark {
-  padding-bottom: 90px;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-
 .kaufman-triangle {
   width: 877px;
   height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__columns {
+  display: flex;
+  color: white;
+  min-height: 250px;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  margin: 0;
+  padding: 18px 0 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 0;
+  padding: 20px 0 16px;
+  list-style-type: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
 }
